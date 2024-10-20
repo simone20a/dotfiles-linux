@@ -1,0 +1,15 @@
+if status is-interactive
+	set fish_greeting ' '
+	set fish_color_error '#757575'
+	set fish_color_command '#7f78ff'
+	set fish_color_option '#757575'
+	set fish_color_param '#a6602b'
+	eval "$(/opt/homebrew/bin/brew shellenv)"
+	# neofetch --kitty ~/Immagini/neofetchImage.jpg --size 19% --xoffset 2 --yoffset 2
+	# Commands to run in interactive sessions can go here
+
+end
+
+# Setting PATH for Python 3.10
+# The original version is saved in /Users/simonevalentini/.config/fish/config.fish.pysave
+set -x PATH "/Library/Frameworks/Python.framework/Versions/3.10/bin" "$PATH"
